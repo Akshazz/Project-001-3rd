@@ -24,7 +24,8 @@
 <div class="form">
 
     <section class="form login" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; margin: auto; width: 30%; padding: 10px;">
-      <header style="color:rgb(44, 44, 44); font-size: 15; font-family:Arial, Helvetica, sans-serif;"> | Login Form </header>
+      <header style="color:rgb(44, 44, 44); font-size: 15; font-family:Arial, Helvetica, sans-serif;">
+    BOSS MARCO </header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         
         <div class="field input">

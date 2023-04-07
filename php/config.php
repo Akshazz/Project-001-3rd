@@ -3,7 +3,7 @@
 $host="localhost";
 $user="root";
 $password="";
-$db="u476821515_SMS";  
+$db="student_information";  
 
  $conn  = mysqli_connect($host, $user, $password, $db);
   if(!$conn){
