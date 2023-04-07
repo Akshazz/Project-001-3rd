@@ -1,8 +1,8 @@
 <?php
 
 $host="localhost";
-$user="u476821515_SMS";
-$password="Bcpsms12@";
+$user="root";
+$password="";
 $db="u476821515_SMS";  
 
  $conn  = mysqli_connect($host, $user, $password, $db);

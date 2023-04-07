@@ -10,7 +10,7 @@
 <html lang="en">
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> MISC RTC APP </title>
+        <title> Project-001 </title>
         <link rel="manifest" href="manifest.json">
         <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
@@ -20,10 +20,11 @@
 <br>
 <br>
 <br>
-  <div class="formlogin">
-    <section class="form login">
-      <center><img src="./images/logo.png" alt="logo" width="190px" height="190px"></center>
-      <header style="color:rgb(44, 44, 44); font-size: 15; font-family:Arial, Helvetica, sans-serif;"> MISC: Sign in </header>
+
+<div class="form">
+
+    <section class="form login" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; margin: auto; width: 30%; padding: 10px;">
+      <header style="color:rgb(44, 44, 44); font-size: 15; font-family:Arial, Helvetica, sans-serif;"> | Login Form </header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         
         <div class="field input">
@@ -35,15 +36,11 @@
           <input style="border: 1px solid grey;" class="form-control" type="password" name="pass" placeholder="  Enter Your Password" required>
           <i class="fas fa-eye"></i>
         </div>
-
-        <?php include ("terms&condition.php") ?>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
         
          <!-- ETO YUNG MODAL PAR -->
          &nbsp;&nbsp;&nbsp;
   <input type="checkbox" required>
-  <label>I agree to this <a href="#" id="modal" style="text-decoration: none; color: blue;">Terms and Conditions</a></label>
+  <label><p style="text-decoration: none; color: blue; font-size: 11px;"> I agree to this <a href="">Terms and Conditions</a></p></label>
   
   <script>
     $(document).ready(function(){
@@ -54,20 +51,17 @@
   </script>
 
         <div class="field button">
-          <input type="submit" name="submit" value="Sign in">
+          <input class="btn btn-success btn-sm" type="submit" name="submit" value="Sign in">
         </div>
         
         <div class="frame">
 
 </div>
 
+        <a href=""><p class="forg"> Forgot password? </p></a>
+
         <div class="error-text"></div>
 
-        <a href=""><p class="forg"> Forgot password? </p></a>
-        <br>
-        <br>
-        <br>
-        <a href="index.html"><p class="forg"> @rtc-app.info </p></a>
       </form>
 
   <script src="javascript/pass-show-hide.js"></script>
